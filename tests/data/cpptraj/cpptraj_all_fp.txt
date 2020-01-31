@@ -1,0 +1,22 @@
+parm complex.top
+trajin $PDB
+pairwise fingerprint1 :25 :268 out fp_1_53_7_49.txt
+pairwise fingerprint2 :25 :271 out fp_1_53_7_53.txt
+pairwise fingerprint3 :97 :218 out fp_3_46_6_37.txt
+pairwise fingerprint4 :97 :272 out fp_3_46_7_53.txt
+pairwise fingerprint5 :101 :218 out fp_3_50_6_37.txt
+pairwise fingerprint6 :101 :272 out fp_3_50_7_53.txt
+pairwise fingerprint7 :181 :162 out fp_5_51_6_44.txt
+pairwise fingerprint8 :185 :222 out fp_5_55_6_41.txt
+pairwise fingerprint9 :188 :221 out fp_5_58_6_40.txt
+pairwise fingerprint10 :192 :218 out fp_5_62_6_37.txt
+pairwise fingerprint11 :221 :268 out fp_6_40_7_49.txt
+pairwise fingerprint12 :269 :274 out fp_7_50_7_55.txt
+pairwise fingerprint13 :272 :279 out fp_7_53_8_50.txt
+pairwise fingerprint14 :273 :280 out fp_7_54_8_51.txt
+pairwise fingerprint15 :94 :268 out fp_3_43_7_49.txt
+pairwise fingerprint16 :94 :272 out fp_3_43_7_53.txt
+pairwise fingerprint17 :25 :273 out fp_1_53_7_54.txt
+pairwise fingerprint18 :91 :229 out fp_3_40_6_48.txt
+pairwise fingerprint19 :94 :221 out fp_3_43_6_40.txt
+pairwise fingerprint20 :94 :222 out fp_3_43_6_41.txt

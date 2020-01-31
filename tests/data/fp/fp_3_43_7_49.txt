@@ -1,0 +1,2 @@
+#Frame   fingerprint15[EVDW] fingerprint15[EELEC]
+       1             -0.2541             -12.4371

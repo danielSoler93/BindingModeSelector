@@ -1,0 +1,9 @@
+source leaprc.protein.ff14SB
+loadamberparams frcmod.ionsjc_tip3p
+source leaprc.gaff
+source leaprc.water.tip3p
+loadamberprep ligand.prep
+complex=loadpdb $PDB
+saveamberparm complex complex.top complex.crd
+savepdb complex $OUTPUT
+quit
